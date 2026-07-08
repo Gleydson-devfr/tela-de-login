@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("programador.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 380px;
+    padding: 30px;
+    border-radius: 15px;
+
+    background: rgba(255, 255, 255, 0.048);
+
+    border: 1px solid rgba(255, 255, 255, 0.151);
+    color: white;
+    box-shadow:0 0 5px rgba(255, 255, 255, 0.151);
+}
+
+.formulario{
+    padding: 15px;
+
+}
+
+.usuario{
+    padding: 10px;
+    border-radius: 20px;
+    border: 0;
+    min-width: 300px;
+    background: rgba(255, 255, 255, 0.13);
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.usuario::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+
+.senha{
+    padding: 10px;
+    border-radius: 20px;
+    border: 0;
+    min-width: 300px;
+    background: rgba(255, 255, 255, 0.13);
+    color: white;
+    font-weight: bold;
+}
+
+.senha::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+
+.login{
+    text-align: center;
+    font-size: 28px;
+}
+
+
+.lembrar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.checkbox a{
+    color: white;
+    text-decoration: none;
+}
+
+.button{
+    background-color:#FFFFFF ;
+    border: 0;
+    border-radius: 20px;
+    min-width: 300px;
+    padding: 6px;
+    font-weight: bold;
+    margin-top: 12px;
+    cursor: pointer;
+
+}
+
+.cadastro{
+    text-align: center;
+    margin-top: 17px;
+    font-size:12px;
+}
+
+.cadastro a{
+    color: #FFFFFF;
+    font-weight: bold;
+}
